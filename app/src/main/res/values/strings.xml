@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PDP_uzApp</string>
+    <string name="text_info_curse">Android kursida siz dastlab kotlin dasturlash tili o’rganasiz.
+
+Shundan so’ng, sodda va murakkab ko’rinishidagi UI komponentlari yordamida mobil ilovalarning tashqi dizayn ko’rinishi qannday yaratish o’rgatiladi.
+
+SQlite malumotlar bazasi hamda ROOM va realm kabi mashhur kutubxonalar, API tushunchasi va internet orqali ishlovchi dasturlar strukturasi, Firebase texnologiyasi, shuningdek hozirda judayam ko’p foydalanilayotgan arxitektura komponentalari, dagger kutubxonalari orqali murakkab mobil ilovalar yaratish imkoniyatiga ega bo’lasiz.
+</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

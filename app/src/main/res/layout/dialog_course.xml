@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        app:cardElevation="3dp"
+        app:cardCornerRadius="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:paddingVertical="20dp"
+            android:paddingHorizontal="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:paddingHorizontal="15dp"
+                android:hint="Course nomi"
+                android:id="@+id/course_name"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/back_ground"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"/>
+            <EditText
+                android:paddingHorizontal="15dp"
+                android:hint="Course haqida"
+                android:layout_marginTop="15dp"
+                android:id="@+id/course_about"
+                app:layout_constraintTop_toBottomOf="@id/course_name"
+                android:background="@drawable/back_ground"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"/>
+            <TextView
+                app:layout_constraintTop_toBottomOf="@id/course_about"
+                android:layout_marginTop="30dp"
+                app:layout_constraintRight_toLeftOf="@id/add_tv"
+                android:layout_marginRight="25dp"
+                android:text="Yopish"
+                android:fontFamily="@font/roboto_medium_"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:id="@+id/close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/add_tv"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/course_about"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/roboto_medium_"
+                android:text="Qo`shish"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
